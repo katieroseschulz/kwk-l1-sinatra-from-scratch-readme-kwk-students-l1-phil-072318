@@ -12,6 +12,7 @@ class MyApp < Sinatra::Base
   	erb:index
   end
   
+
     
   post '/quizresults' do
     answers = params.values
@@ -53,5 +54,13 @@ class MyApp < Sinatra::Base
   get '/tips'do
     erb:tips
   end
+  
+  get '/about_us'do
+    erb:about_us
+  end
+  
+  get '/deaf'do
+    erb:deaf
+  end 
  
 end
