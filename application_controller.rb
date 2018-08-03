@@ -1,7 +1,7 @@
 class MyApp < Sinatra::Base
  
   get '/' do
-    "Welcome to the the balancED learning style quiz!"
+    erb:home
   end
   
   get '/test' do
